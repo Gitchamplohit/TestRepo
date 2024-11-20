@@ -12,3 +12,6 @@ resource "random_string" "rand_str" {
 output "random_string" {
   value = random_string.rand_str[*].result
 }
+
+
+test
